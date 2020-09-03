@@ -1,11 +1,24 @@
 .nav-red{
     background-color:#d00000;
 }
-h5{font-size:60px ;
+.carousel-text
+{font-size: 50px; ;
     text-align-last: center;
-    color: black ;
+    color: #03071e;
+    background-color: #d00000;
 }
-p{
-    font-size: 30px;
-    color: black; 
+.carousel-textp
+{font-size: 25px;
+    color: #03071e; 
+    background-color: #d00000;
+
+}
+
+.carousel-caption
+{
+    max-width: 300px;
+    margin: 0 auto;
+}
+a {
+    color:
 }
