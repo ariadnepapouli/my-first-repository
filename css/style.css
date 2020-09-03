@@ -21,7 +21,7 @@
 }
 
  .rounded-image{
-    border-radius: 50%;
+    border-radius: 50% ;
     padding: 10%;
      }
     
@@ -33,11 +33,4 @@
 }
 body{
     background-color:#d3d3d3;
-}
-.rounded-float-left{
-    background-color:white;
-}
-.rounded-float-right{
-  border-radius: 50%
-  padding: 10%
 }
