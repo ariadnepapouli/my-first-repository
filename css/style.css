@@ -1,16 +1,16 @@
 .nav-red{
-    background-color:#d00000;
+    background-color:#e5383b;
 }
 .carousel-text
 {font-size: 50px; ;
     text-align-last: center;
     color: #03071e;
-    background-color: #d00000;
+    background-color: white;
 }
 .carousel-textp
 {font-size: 25px;
     color: #03071e; 
-    background-color: #d00000;
+    background-color: white;
 
 }
 
@@ -19,6 +19,25 @@
     max-width: 300px;
     margin: 0 auto;
 }
-a {
-    color:
+
+ .rounded-image{
+    border-radius: 50%;
+    padding: 10%;
+     }
+    
+.button{ 
+    color: white;
+    }
+.button:hover{
+    color:white;
+}
+body{
+    background-color:#d3d3d3;
+}
+.rounded-float-left{
+    background-color:white;
+}
+.rounded-float-right{
+  border-radius: 50%
+  padding: 10%
 }
