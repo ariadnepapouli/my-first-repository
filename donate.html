@@ -6,6 +6,7 @@
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <title>Global Warming</title>
         </head>
         <body>
@@ -28,14 +29,20 @@
                         info
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">About Global Warming</a>
-                        <a class="dropdown-item" href="#">About us</a>
+                        <a class="dropdown-item" href="aboutus.html">About us</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="signup.html">Sign up for our protests</a>
                       </div>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        contact us
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">phone number: 210222222</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">email: globalwarming@gmail.com</a>
+                      </div>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -44,7 +51,7 @@
                   </form>
                 </div>
               </nav>
-            <form class="needs-validation" novalidate>
+            <form class="needs-validation my-form" novalidate>
                 <div class="form-row">
                   <div class="col-md-6 mb-3">
                     <label for="validationTooltip01">First name</label>
